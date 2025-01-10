@@ -6,9 +6,9 @@
 #
 
 # -----------------------------------------------------------------------------
-LLM_MODEL="chatsbp/azure/gpt-4o"                      # Replace with your desired model
+LLM_MODEL="gpt-4o-mini"                      # Replace with your desired model
 
-# AWS_PROFILE=bedrockai llm -m $LLM_MODEL "Hello, world!"  # Test the model
+# AWS_PROFILE=bedrockai llm -m $LLM_MODEL
 # -----------------------------------------------------------------------------
 
 
