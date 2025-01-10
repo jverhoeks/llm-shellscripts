@@ -53,34 +53,16 @@ Before using the scripts, make sure you have the following tools set up:
 
 Check the installation guides for [LLM](https://llm.datasette.io/en/stable/) and [Ollama](https://github.com/taketwo/llm-ollama) for detailed steps.
 
-### 3. **Make Scripts Executable:**
-
-Ensure the scripts are executable by running:
-
-```bash
-chmod +x ./git/*.zsh
-```
-
-### 4. **Run the Scripts:**
+### 3. **Run the Scripts:**
 
 Now, you’re ready to use the scripts! Depending on your shell environment, the process is slightly different. Here's how to run the scripts:
 
-#### For **zsh:**
+#### For **zsh and **bash :**
 
 If you're using **zsh** (which is the default on newer macOS and many Linux distros), simply execute the scripts like this:
 
 ```bash
-zsh ./git/git-commit.zsh
-```
-
-This will generate a Git commit message for you using LLM. Follow the prompts, and the AI will suggest a message!
-
-#### For **bash:**
-
-If you're using **bash**, you can still run the scripts without any issues. The command will be almost identical:
-
-```bash
-bash ./git/git-commit.zsh
+source ./git/git-commit.zsh
 ```
 
 Though these scripts are written for **zsh**, they are generally compatible with **bash** as well. However, certain **zsh**-specific features (e.g., custom autocompletions) may not work perfectly in **bash**.
@@ -90,7 +72,7 @@ Though these scripts are written for **zsh**, they are generally compatible with
 If you're using **[Oh My Zsh](https://ohmyz.sh/)**, you’ll enjoy the added benefits of autocompletion and custom plugins. You can easily run the scripts the same way as with **zsh**:
 
 ```bash
-zsh ./git/git-commit.zsh
+source ./git/git-commit.zsh
 ```
 
 Additionally, you can add these scripts to your **Oh My Zsh** custom plugins to make them even more accessible! Here’s how you can add a custom plugin:
@@ -119,7 +101,7 @@ Additionally, you can add these scripts to your **Oh My Zsh** custom plugins to 
    source ~/.zshrc
    ```
 
-Now, you can run the scripts directly from your terminal without needing to navigate to the folder, like so:
+Now, you can run the script function directly from your terminal without needing to navigate to the folder, like so:
 
 ```bash
 git-commit

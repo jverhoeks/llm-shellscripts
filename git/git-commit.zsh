@@ -15,7 +15,7 @@ LLM_MODEL="gpt-4o-mini"                      # Replace with your desired model
 # -----------------------------------------------------------------------------
 
 
-gai() {
+git-commit() {
     # Check if there are any staged changes
     if [ -z "$(git diff --cached --name-only)" ]; then
         echo "No staged changes found. Please stage your changes before committing."

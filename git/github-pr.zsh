@@ -12,7 +12,7 @@ LLM_MODEL="chatsbp/azure/gpt-4o"                      # Replace with your desire
 # -----------------------------------------------------------------------------
 
 
-prai() {
+github-pr() {
     # Ensure you are on a feature branch and not main branch
     if [[ "$(git rev-parse --abbrev-ref HEAD)" == "main" ]]; then
         echo "You are on the main branch. Switch to a feature branch to create a PR."
