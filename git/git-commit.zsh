@@ -4,6 +4,8 @@
 #  Requires: 
 #  - LLM installed and configured with your desired model <https://llm.datasette.io/en/stable/>
 #
+#  My personal preference is <https://github.com/angerman/llm-groq>. Groq has a collection of opensource models (llama/mistral)
+#  a reasonable amount of free credits and above all it's super fast.
 
 
 # -----------------------------------------------------------------------------
